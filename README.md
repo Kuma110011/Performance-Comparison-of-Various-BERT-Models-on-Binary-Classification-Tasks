@@ -20,9 +20,12 @@ The paper aims to provide insights into the performance of BERT-based models in 
 
 Three datasets were chosen for comparison:
 
-SST(train.tsv,dev.tsv,test.tsv): The Stanford Sentiment Treebank dataset consists of movie review sentences with human-annotated sentiment labels.  
-CoLA(in_domain_train_processed.tsv,in_domain_dev_processed.tsv,out_of_domain_dev_processed.tsv): The Corpus of Linguistic Acceptability dataset consists of English sentences that are grammatically correct or not.  
-MRPC(msr_paraphrase_train_edit.tsv,msr_paraphrase_vali_edit.tsv,msr_paraphrase_test2_edit.tsv): The Microsoft Research Paraphrase Corpus dataset contains pairs of long sentences, where each pair may be either a paraphrase or not.
+SST(train.tsv,dev.tsv,test.tsv):  
+The Stanford Sentiment Treebank dataset consists of movie review sentences with human-annotated sentiment labels.  
+CoLA(in_domain_train_processed.tsv,in_domain_dev_processed.tsv,out_of_domain_dev_processed.tsv):  
+The Corpus of Linguistic Acceptability dataset consists of English sentences that are grammatically correct or not.  
+MRPC(msr_paraphrase_train_edit.tsv,msr_paraphrase_vali_edit.tsv,msr_paraphrase_test2_edit.tsv):   
+The Microsoft Research Paraphrase Corpus dataset contains pairs of long sentences, where each pair may be either a paraphrase or not.
 
 ## 3. Models
 
