@@ -38,6 +38,7 @@ RoBERTa: A robustly optimized version of BERT
 XLM: Cross-lingual Language Model  
 ALBERT: A Lite BERT with parameter reduction techniques  
 
+We campare it from accuracy, precision, runtime and some other field of performance.
 ## 4. Setup
 To set up the environment for running the code, please follow these steps:
 1. Clone the repository:
