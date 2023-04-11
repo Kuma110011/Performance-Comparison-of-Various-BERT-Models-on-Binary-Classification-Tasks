@@ -36,8 +36,8 @@ ALBERT: A Lite BERT with parameter reduction techniques
 ## 4. Setup
 To set up the environment for running the code, please follow these steps:
 1. Clone the repository:
-git clone https://github.com/your_github_username/bert-comparison.git
-cd bert-comparison
+git clone https://github.com/Kuma110011/STAD80_Team_We-donno-whatt-we-doin.git  
+
 2. Create a virtual environment and install the required packages:
 python3 -m venv venv
 source venv/bin/activate
