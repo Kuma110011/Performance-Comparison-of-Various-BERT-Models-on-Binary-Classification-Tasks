@@ -20,18 +20,18 @@ The paper aims to provide insights into the performance of BERT-based models in 
 
 Three datasets were chosen for comparison:
 
-SST: The Stanford Sentiment Treebank dataset consists of movie review sentences with human-annotated sentiment labels.
-CoLA: The Corpus of Linguistic Acceptability dataset consists of English sentences that are grammatically correct or not.
+SST: The Stanford Sentiment Treebank dataset consists of movie review sentences with human-annotated sentiment labels.  
+CoLA: The Corpus of Linguistic Acceptability dataset consists of English sentences that are grammatically correct or not.  
 MRPC: The Microsoft Research Paraphrase Corpus dataset contains pairs of long sentences, where each pair may be either a paraphrase or not.
 
 ## 3. Models
 
 Four prominent language models were selected for comparison:
 
-BERT: Bidirectional Encoder Representations from Transformers
-RoBERTa: A robustly optimized version of BERT
-XLM: Cross-lingual Language Model
-ALBERT: A Lite BERT with parameter reduction techniques
+BERT: Bidirectional Encoder Representations from Transformers  
+RoBERTa: A robustly optimized version of BERT  
+XLM: Cross-lingual Language Model  
+ALBERT: A Lite BERT with parameter reduction techniques  
 
 ## 4. Setup
 To set up the environment for running the code, please follow these steps:
