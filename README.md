@@ -62,4 +62,10 @@ MRPC	| 0.749/0.713/0.727/0.718| 0.833/0.824/0.773/0.791| 0.796/0.769/0.741/0.751
 
 
 ## LICENSE
-Please refer to [MIT License Copyright (c) 2020 YJiangcm](https://github.com/YJiangcm/Movielens1M-Movie-Recommendation-System/blob/main/LICENSE)
+https://github.com/Kuma110011/STAD80_Team_We-donno-whatt-we-doin/blob/1c8ff81b52027527c5daac9cb5aad96d3f188929/LICENSE
+
+
+## Acknowledgment
+
+This project is based on [this repo@YJiangcm](https://github.com/YJiangcm/SST-2-sentiment-analysis)
+
