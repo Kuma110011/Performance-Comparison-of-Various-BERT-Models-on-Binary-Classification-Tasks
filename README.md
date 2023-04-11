@@ -48,7 +48,7 @@ To fine-tune and evaluate the models on the datasets, run the following command:
 python main.py --model [MODEL_NAME] --dataset [DATASET_NAME]
 
 ## 6. Results:
-The results of the performance comparison:
+The results of the performance comparison:(Accuracy/Precision/Recall/F1
 
 
  Model | BERT | ROBERTA	| XLM | ALBERT
