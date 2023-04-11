@@ -62,7 +62,8 @@ MRPC	| 0.749/0.713/0.727/0.718| 0.833/0.824/0.773/0.791| 0.796/0.769/0.741/0.751
 
 
 ## LICENSE
-MIT LISENCE
+[MIT LISENCE](https://github.com/Kuma110011/STAD80_Team_We-donno-whatt-we-doin/blob/7f2169f32f1f7027de17fc210b5391a9ad37297b/LICENSE)
+
 ## Acknowledgment
 
 This project is based on [this repo@YJiangcm](https://github.com/YJiangcm/SST-2-sentiment-analysis)
