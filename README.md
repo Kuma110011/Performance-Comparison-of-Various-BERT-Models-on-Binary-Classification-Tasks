@@ -1,41 +1,65 @@
-# SST-2-sentiment-analysis
+# Performance Comparison of Various BERT Models on Binary Classification Tasks
 
-Use BiLSTM_attention, BERT, RoBERTa, XLNet and ALBERT models to classify the SST-2 data set based on pytorch.
+Performance Comparison of Various BERT Models on Binary Classification Tasks
+This repository contains the code and materials for the paper "Performance Comparison of Various BERT Models on Binary Classification Tasks" by Yunrong Liu and Kuang Ren. The paper investigates the strengths and weaknesses of different BERT-based models (BERT, RoBERTa, XLM, and ALBERT) and compares their performance on binary classification tasks using three datasets: SST, CoLA, and MRPC.
 
-These codes are recommended to  run in **Google Colab**, where  you may use free GPU resources.
+Table of Contents
+1.Introduction
+2.Datasets
+3.Models
+4.Setup
+5.Usage
+6.Results
+7.References
 
-## 1. Experiment results of BiLSTM_attention models on test set:
-The **BiLSTM_attention model** can let us know which words in a sentence do contributions to the sentiment of this sentence. The code is avalibale in "bilstm_attention.ipynb",  where **two types of self-attention mechanism** have been achieved. You can run it in Google Colab for practice. The visualization result is shown below:
+## 1. Introduction
 
-<img src="https://github.com/YJiangcm/Movielens1M-Movie-Recommendation-System/blob/main/pictures/attention%E5%8F%AF%E8%A7%86%E5%8C%962.PNG" width="800" height="300">
+The paper aims to provide insights into the performance of BERT-based models in various natural language processing (NLP) tasks, such as sentiment analysis, grammatical error detection, and paraphrase identification. By comparing the models' performance, the study aims to contribute to the development of more effective and efficient NLP solutions.
 
-## 2. Experiment results of BERT models on test set:
-For specific BERT models, you can find them from https://huggingface.co/models and then do modify in "models.py".
-### 2.1 base model
- Model | Accuracy | Precision	| Recall | F1
+## 2. Datasets
+
+Three datasets were chosen for comparison:
+
+SST: The Stanford Sentiment Treebank dataset consists of movie review sentences with human-annotated sentiment labels.
+CoLA: The Corpus of Linguistic Acceptability dataset consists of English sentences that are grammatically correct or not.
+MRPC: The Microsoft Research Paraphrase Corpus dataset contains pairs of long sentences, where each pair may be either a paraphrase or not.
+
+## 3. Models
+
+Four prominent language models were selected for comparison:
+
+BERT: Bidirectional Encoder Representations from Transformers
+RoBERTa: A robustly optimized version of BERT
+XLM: Cross-lingual Language Model
+ALBERT: A Lite BERT with parameter reduction techniques
+
+## 4. Setup
+To set up the environment for running the code, please follow these steps:
+1. Clone the repository:
+git clone https://github.com/your_github_username/bert-comparison.git
+cd bert-comparison
+2. Create a virtual environment and install the required packages:
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+## 5. Usage
+To fine-tune and evaluate the models on the datasets, run the following command:
+python main.py --model [MODEL_NAME] --dataset [DATASET_NAME]
+
+## 6. Results:
+The results of the performance comparison:
+
+
+ Model | BERT | ROBERTA	| XLM | ALBERT
  ---- | -----  |----- |----- |----- 
- BERT (base-uncased) | 91.8 |	91.8 |	91.8	| 91.8
-RoBERTa (base-uncased)	| **93.4**	| **93.5**	| **93.4**	| **93.3**
-XLNet (base-uncased)	| 92.5	| 92.5	| 92.5	| 92.5
-ALBERT (base-v2-uncased)	| 91.4	| 91.4	| 91.4	| 91.4
+ SST | 0.921/0.922/0.921/0.921 |	0.946/0.946/0.946/0.946|	0.951/0.951/0.951	| 0.897/0.913/0.897/0.896
+COLA	| **93.4**	| **93.5**	| **93.4**	| **93.3**
+MRPC	| 92.5	| 92.5	| 92.5	| 92.5
 
-### 2.2 large model
- Model | Accuracy | Precision	| Recall | F1
- ---- | -----  |----- |----- |----- 
-BERT (large-uncased) 	| 93.1	| 93.2	| 93.1	| 93.1
-RoBERTa (large-uncased)	| 94.9	| 95.0	| 95.0	| 94.9
-XLNet (large-uncased)	| 94.6	| 94.7	| 94.6	| 94.6
-ALBERT (large-v2-uncased)	| 92.2	| 92.3	| 92.2	| 92.2
-ALBERT (xlarge-v2-uncased)	| 93.8	| 93.8	| 93.9	| 93.8
-ALBERT (xxlarge-v2-uncased)	| **95.9**	| **95.9**	| **95.9**	| **95.9**
 
-### 2.3 base model + text attack
- Model | Accuracy | Precision	| Recall | F1
- ---- | -----  |----- |----- |----- 
- BERT (base-uncased) + textattack |	92.4	|92.8	|92.4	|92.4
-RoBERTa (base-uncased) + textattack	|**94.3**	|**94.3**	|**94.3**	|**94.3**
-XLNet (base-uncased) + textattack	|93.7	|93.8	|93.7	|93.7
-ALBERT (base-uncased) + textattack	|92.0	|92.0|	92.0	|92.0
+
+
 
 ## LICENSE
 Please refer to [MIT License Copyright (c) 2020 YJiangcm](https://github.com/YJiangcm/Movielens1M-Movie-Recommendation-System/blob/main/LICENSE)
