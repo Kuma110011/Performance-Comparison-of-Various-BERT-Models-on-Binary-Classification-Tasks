@@ -74,5 +74,6 @@ MRPC	| 0.749/0.713/0.727/0.718| 0.833/0.824/0.773/0.791| 0.796/0.769/0.741/0.751
 
 This project is based on [this repo@YJiangcm](https://github.com/YJiangcm/SST-2-sentiment-analysis)  
 
-##
+## Extra
+This section will appear simply because I want to show this cute picture
 ![Image text](https://github.com/Kuma110011/STAD80-Team-We-donno-whatt-we-doin/blob/main/data/output/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230411003605.jpg)
